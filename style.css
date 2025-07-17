@@ -48,7 +48,8 @@ span{
 .list-div ul li{
     padding: 10px 3px;
 }
-.block-div {
+.block-div 
+{
     padding-left: 29%;
     padding-right: 27%;
     max-width: 800px;
@@ -58,4 +59,74 @@ footer{
     background-color: #eeeeee ;
     padding-top: 1px;
     text-align: center;
+}
+
+/* Responsive tablette */
+@media (max-width: 1024px) {
+    .fig-img figure img {
+        width: 90%;
+        height: auto;
+    }
+
+    .list-div,
+    .block-div {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .parag {
+        padding: 15px;
+    }
+}
+
+/* Responsive téléphone */
+@media (max-width: 600px) {
+    header {
+        height: auto;
+        padding: 15px;
+    }
+
+    .fig-img figure img {
+        width: 95%;
+        height: auto;
+    }
+
+    .list-div,
+    .block-div {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .list-div ul li {
+        padding: 8px 2px;
+        font-size: 0.95rem;
+    }
+
+    .parag {
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+
+    blockquote q {
+        font-size: 0.95rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+    blockquote p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    blockquote q {
+        font-style: italic;
+    }
+    
 }
