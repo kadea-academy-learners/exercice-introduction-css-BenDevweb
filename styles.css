@@ -7,9 +7,6 @@ body {
     padding: 0;
     font-family:'Times New Roman', Times, serif;
 }
-.bgc {
-    background-color: #eeeeee;
-}
 
 header {
     margin: 0 auto;
@@ -17,7 +14,7 @@ header {
     text-align: center;
     margin-top: 20px;
     padding-bottom: 10px;
-    
+    background-color:#EEEEEE;
 }
 
 p{ 
@@ -33,7 +30,7 @@ h2{
 }
 
 .text-section {
-    
+    background-color: #EEEEEE;
     padding: 20px;
 }
 .container-img {
@@ -48,17 +45,16 @@ h2{
 
 .container-img img {
     background: #ffffff;
-    width: 100%;
+    width: 75%;
     height: 50%;
     object-fit: cover;
 }
 
 .container-img em {
     font-style:normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 1rem;
     margin-bottom: auto;
-    padding-left: 40px;
     text-align: center;
 }
 
@@ -119,7 +115,7 @@ blockquote {
 }
 
 footer {
-  
+    background-color: #EEEEEE;
     padding: 20px;
     text-align: center;
     bottom: 0;
